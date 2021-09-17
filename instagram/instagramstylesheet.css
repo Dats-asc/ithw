@@ -1,0 +1,254 @@
+.body{
+    background: whitesmoke;
+    margin: 0px;
+}
+
+.signInAndSignUp{
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 24%;
+}
+
+.signInConatainer{
+    width: 350px; height: 370px;
+    background: white;
+    border-width: 1px;
+    border-color: lightgray; 
+    border-style: solid;
+    display: inline-block;
+}
+
+#instagramTitle{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    background-size: 440px 411px;
+}
+
+.test{
+    background-size: 440px 411px;
+    background-position: 0 -129px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url(/Users/rustamhajrullin/Desktop/html/insta/src/instagramImg.png);
+}
+
+.imgHolder{
+    margin-left: 85px;
+    text-align: center;
+}
+
+.signUpContainer{
+    width: 350px; height: 60px;
+    background: white;
+    border-width: 1px;
+    border-color: lightgray; 
+    border-style: solid;
+    margin-top: 13px;
+}
+
+.loginInput{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.loginEntry{
+    width: 275px; height: 32px;
+    font-size: 16px;
+    border-color: lightgray;
+    border-width: 0.5px;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.passwordInput{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.passwordEntry{
+    width: 275px; height: 32px;
+    font-size: 16px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.phoneImg{
+    height: 618px;
+}
+
+.phoneDiv{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.signInUp{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: -20px;
+    margin-left: -20px;
+}
+
+.signInButton{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#signInButton{
+    width: 275px; height: 30px;
+    background-color: lightskyblue;
+    border-width: 0px;
+    border-radius: 3px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+
+.orContainer{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.orHolder{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#orHolder{
+    font-size: 14px;
+    color: gray;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.bottomLine{
+    width: 105px;
+    display: inline-block;
+    outline-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    margin-bottom: 5px;
+}
+
+.facebookLink{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#facebookLink{
+    text-decoration: none;
+    color: #385185;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.changePasswordLink{
+    margin-top: 15px;
+}
+
+#changePasswordLink{
+    text-decoration: none;
+    color: #385185;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.text{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#text{
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.signUpLink{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#signUpLink{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.appText{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#appText{
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.appsLinks{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.iosApp{
+    display: inline-block;
+}
+
+.androidApp{
+    display: inline-block;
+}
+
+#iosImg{
+    width: 140px;
+}
+
+#androidImg{
+    width: 140px;
+}
+
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bottomLinks{
+    display: inline-block;
+    margin: 5px;
+}
+
+.line1{
+    text-align: center;
+}
+
+.link{
+    font-size: 13px;
+    color: gray;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.languageSelector{
+    width: 75px;
+    outline: none;
+    border-width: 0px;
+    background-color: whitesmoke;
+    color: gray;
+}
