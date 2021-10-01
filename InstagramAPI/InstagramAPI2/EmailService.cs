@@ -20,7 +20,7 @@ namespace InstagramAPI2
             using (var client = new SmtpClient())
             {
                 await client.ConnectAsync("smtp.yandex.ru", 25, false);
-                await client.AuthenticateAsync("Unknown.user123@yandex.ru", "Rust_010201");
+                await client.AuthenticateAsync("Unknown.user123@yandex.ru", "");
                 await client.SendAsync(emailMessage);
                 await client.DisconnectAsync(true);
             }
